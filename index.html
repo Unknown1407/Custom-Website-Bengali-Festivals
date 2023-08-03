@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="my-nav" class="navbar navbar-expand-lg navbar-light bg-light position-sticky top-0 z-100">
+      <div class="container-fluid justify-content-center w-75">
+        <a class="navbar-brand" href="#">Bengali Festivals</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#section-1">Section 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-2">Section 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-3">Section 3</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Carousel -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://imgeng.jagran.com/images/2022/sep/anidurga1663924903490.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+            <button class="btn btn-primary">Call to Action</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.pexels.com/photos/10147427/pexels-photo-10147427.jpeg?cs=srgb&dl=pexels-soumya-bhattacharjee-10147427.jpg&fm=jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+            <button class="btn btn-primary">Call to Action</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.pexels.com/photos/10147427/pexels-photo-10147427.jpeg?cs=srgb&dl=pexels-soumya-bhattacharjee-10147427.jpg&fm=jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+            <button class="btn btn-primary">Call to Action</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Cards section-1 -->
+    <div class="justify-content-around mx-auto d-flex w-75 p-5 flex-column flex-md-row" id="section-1">
+      <div class="d-flex w-md-25 w-100 flex-column align-center">
+        <img
+          src="https://www.outlookindia.com/traveller/wp-content/uploads/2018/05/durga-puja-featured.jpg"
+          width="250px"
+          height="200px"
+          alt="card-1-image"
+        />
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="d-flex w-md-25 w-100 flex-column align-center">
+        <img
+          src="https://www.outlookindia.com/traveller/wp-content/uploads/2018/05/durga-puja-featured.jpg"
+          width="250px"
+          height="200px"
+          alt="card-2-image"
+        />
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="d-flex w-md-25 w-100 flex-column align-center">
+        <img
+          src="https://www.outlookindia.com/traveller/wp-content/uploads/2018/05/durga-puja-featured.jpg"
+          width="250px"
+          height="200px"
+          alt="card-3-image"
+        />
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+    <!-- Grids -->
+    <div class="my-grid" id="section-2">
+        <div class="photo A">
+            <img src="https://images.pexels.com/photos/13005341/pexels-photo-13005341.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+        <div class="photo B">
+            <img src="https://images.pexels.com/photos/13005341/pexels-photo-13005341.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+        <div class="photo C">
+            <img src="https://images.pexels.com/photos/13005341/pexels-photo-13005341.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+        <div class="photo D">
+            <img src="https://images.pexels.com/photos/13005341/pexels-photo-13005341.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+        <div class="photo E">
+            <img src="https://images.pexels.com/photos/13005341/pexels-photo-13005341.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+        <div class="photo F">
+            <img src="https://images.pexels.com/photos/13005341/pexels-photo-13005341.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+        <div class="photo G">
+            <img src="https://images.pexels.com/photos/13005341/pexels-photo-13005341.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+        <div class="photo H">
+            <img src="https://images.pexels.com/photos/13005341/pexels-photo-13005341.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+        <div class="photo I">
+            <img src="https://images.pexels.com/photos/13005341/pexels-photo-13005341.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+    </div>
+    <!-- Cards section-2 -->
+    <div class="justify-content-between mx-auto d-flex w-75 my-5 flex-column flex-md-row" id="section-3">
+      <div class="card shadow-lg" style="width: 18rem">
+        <img
+          src="https://www.edudwar.com/wp-content/uploads/2021/04/Dolyatra-2022-Celebration.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card shadow-lg" style="width: 18rem">
+        <img
+          src="https://www.edudwar.com/wp-content/uploads/2021/04/Dolyatra-2022-Celebration.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card shadow-lg" style="width: 18rem">
+        <img
+          src="https://www.edudwar.com/wp-content/uploads/2021/04/Dolyatra-2022-Celebration.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <!--Footer -->
+    <div class="bg-light p-4">
+        <div class="d-flex justify-content-around w-75 mx-auto flex-column flex-md-row">
+           <div class="d-flex flex-column">
+            <h3>Useful Links</h3>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+           </div>
+           <div class="d-flex flex-column">
+            <h3>More Links</h3>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+           </div>
+           <div class="d-flex flex-column">
+            <h3>Contact Us</h3>
+            <p>Email : dutta.biswadeep1407@gmail.com</p>
+            <p>Phone : 9876543210</p>
+           </div>
+        </div>
+        <div class="d-flex justify-content-between align-center px-5 mt-4 w-75 mx-auto">
+            <p class="m-0">&copy; 2023 Complex UI. All rights reserved</p>
+            <a href="#my-nav">
+
+            <button class="btn btn-primary">Back to Top</button>
+        </a>
+        </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

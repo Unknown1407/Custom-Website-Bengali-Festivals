@@ -1,0 +1,51 @@
+.my-grid{
+    margin-inline: auto;
+    justify-content: center;
+    display: grid;
+    width: 75vw;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 150px 150px 300px;
+    grid-template-areas:
+     "A A B C D D" 
+     "A A E F G G" 
+     "H H I I I I";
+     gap: 10px;
+}
+.photo{
+    overflow: hidden;
+    object-fit: contain;
+}
+.photo>img{
+    height: 100%;
+    width: 100%;
+}
+.A{
+    grid-area: A;
+}
+.B{
+    grid-area: B;
+}
+.C{
+    grid-area: C;
+}
+.D{
+    grid-area: D;
+}
+.E{
+    grid-area: E;
+}
+.F{
+    grid-area: F;
+}
+.G{
+    grid-area: G;
+}
+.H{
+    grid-area: H;
+}
+.I{
+    grid-area: I;
+}
+.z-100{
+    z-index: 1020;
+}
